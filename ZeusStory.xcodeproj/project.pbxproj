@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE59B042B6D649F009D70EA /* ZeusStoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B032B6D649F009D70EA /* ZeusStoryApp.swift */; };
+		EEE59B062B6D649F009D70EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B052B6D649F009D70EA /* ContentView.swift */; };
+		EEE59B082B6D64A1009D70EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE59B072B6D64A1009D70EA /* Assets.xcassets */; };
+		EEE59B0B2B6D64A1009D70EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE59B0A2B6D64A1009D70EA /* Preview Assets.xcassets */; };
+		EEE59B182B6E81D0009D70EA /* GodsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B172B6E81D0009D70EA /* GodsListView.swift */; };
+		EEE59B1A2B6E81DB009D70EA /* MythsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B192B6E81DB009D70EA /* MythsListView.swift */; };
+		EEE59B1C2B6E81E5009D70EA /* LegendsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B1B2B6E81E5009D70EA /* LegendsListView.swift */; };
+		EEE59B1F2B6E8517009D70EA /* GodsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B1E2B6E8517009D70EA /* GodsData.swift */; };
+		EEE59B212B6E8538009D70EA /* GodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B202B6E8538009D70EA /* GodItem.swift */; };
+		EEE59B232B6E86BD009D70EA /* HTMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B222B6E86BD009D70EA /* HTMLView.swift */; };
+		EEE59B252B6E87A7009D70EA /* GodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B242B6E87A7009D70EA /* GodItemView.swift */; };
+		EEE59B282B6E8882009D70EA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B272B6E8882009D70EA /* Color.swift */; };
+		EEE59B2A2B6E8B36009D70EA /* GodDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B292B6E8B36009D70EA /* GodDetailsView.swift */; };
+		EEE59B2C2B6EB777009D70EA /* LedgentListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B2B2B6EB777009D70EA /* LedgentListItem.swift */; };
+		EEE59B2E2B6EB78E009D70EA /* LegentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B2D2B6EB78E009D70EA /* LegentItem.swift */; };
+		EEE59B302B6EB7EA009D70EA /* LegendsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B2F2B6EB7EA009D70EA /* LegendsData.swift */; };
+		EEE59B322B6EBEBB009D70EA /* LegendDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B312B6EBEBB009D70EA /* LegendDetailsView.swift */; };
+		EEE59B352B6FBD5E009D70EA /* MythsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B342B6FBD5E009D70EA /* MythsData.swift */; };
+		EEE59B372B6FBD71009D70EA /* MythItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B362B6FBD71009D70EA /* MythItem.swift */; };
+		EEE59B392B6FBEBD009D70EA /* MythItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B382B6FBEBD009D70EA /* MythItemDetailsView.swift */; };
+		EEE59B3B2B6FBF07009D70EA /* MythListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B3A2B6FBF07009D70EA /* MythListItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEE59B002B6D649F009D70EA /* ZeusStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeusStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE59B032B6D649F009D70EA /* ZeusStoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusStoryApp.swift; sourceTree = "<group>"; };
+		EEE59B052B6D649F009D70EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEE59B072B6D64A1009D70EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE59B0A2B6D64A1009D70EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEE59B172B6E81D0009D70EA /* GodsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodsListView.swift; sourceTree = "<group>"; };
+		EEE59B192B6E81DB009D70EA /* MythsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythsListView.swift; sourceTree = "<group>"; };
+		EEE59B1B2B6E81E5009D70EA /* LegendsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendsListView.swift; sourceTree = "<group>"; };
+		EEE59B1E2B6E8517009D70EA /* GodsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodsData.swift; sourceTree = "<group>"; };
+		EEE59B202B6E8538009D70EA /* GodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodItem.swift; sourceTree = "<group>"; };
+		EEE59B222B6E86BD009D70EA /* HTMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLView.swift; sourceTree = "<group>"; };
+		EEE59B242B6E87A7009D70EA /* GodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodItemView.swift; sourceTree = "<group>"; };
+		EEE59B272B6E8882009D70EA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EEE59B292B6E8B36009D70EA /* GodDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodDetailsView.swift; sourceTree = "<group>"; };
+		EEE59B2B2B6EB777009D70EA /* LedgentListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgentListItem.swift; sourceTree = "<group>"; };
+		EEE59B2D2B6EB78E009D70EA /* LegentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegentItem.swift; sourceTree = "<group>"; };
+		EEE59B2F2B6EB7EA009D70EA /* LegendsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendsData.swift; sourceTree = "<group>"; };
+		EEE59B312B6EBEBB009D70EA /* LegendDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendDetailsView.swift; sourceTree = "<group>"; };
+		EEE59B342B6FBD5E009D70EA /* MythsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythsData.swift; sourceTree = "<group>"; };
+		EEE59B362B6FBD71009D70EA /* MythItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythItem.swift; sourceTree = "<group>"; };
+		EEE59B382B6FBEBD009D70EA /* MythItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythItemDetailsView.swift; sourceTree = "<group>"; };
+		EEE59B3A2B6FBF07009D70EA /* MythListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythListItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE59AFD2B6D649F009D70EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE59AF72B6D649F009D70EA = {
+			isa = PBXGroup;
+			children = (
+				EEE59B022B6D649F009D70EA /* ZeusStory */,
+				EEE59B012B6D649F009D70EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE59B012B6D649F009D70EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B002B6D649F009D70EA /* ZeusStory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE59B022B6D649F009D70EA /* ZeusStory */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B262B6E887C009D70EA /* Ext */,
+				EEE59B1D2B6E850D009D70EA /* Data */,
+				EEE59B132B6E817D009D70EA /* Components */,
+				EEE59B122B6E8178009D70EA /* Models */,
+				EEE59B112B6E8172009D70EA /* Views */,
+				EEE59B032B6D649F009D70EA /* ZeusStoryApp.swift */,
+				EEE59B072B6D64A1009D70EA /* Assets.xcassets */,
+				EEE59B092B6D64A1009D70EA /* Preview Content */,
+			);
+			path = ZeusStory;
+			sourceTree = "<group>";
+		};
+		EEE59B092B6D64A1009D70EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B0A2B6D64A1009D70EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEE59B112B6E8172009D70EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B162B6E81A9009D70EA /* Legends */,
+				EEE59B152B6E8197009D70EA /* Myths */,
+				EEE59B142B6E8191009D70EA /* Gods */,
+				EEE59B052B6D649F009D70EA /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EEE59B122B6E8178009D70EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B202B6E8538009D70EA /* GodItem.swift */,
+				EEE59B2D2B6EB78E009D70EA /* LegentItem.swift */,
+				EEE59B362B6FBD71009D70EA /* MythItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EEE59B132B6E817D009D70EA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B222B6E86BD009D70EA /* HTMLView.swift */,
+				EEE59B242B6E87A7009D70EA /* GodItemView.swift */,
+				EEE59B2B2B6EB777009D70EA /* LedgentListItem.swift */,
+				EEE59B3A2B6FBF07009D70EA /* MythListItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EEE59B142B6E8191009D70EA /* Gods */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B172B6E81D0009D70EA /* GodsListView.swift */,
+				EEE59B292B6E8B36009D70EA /* GodDetailsView.swift */,
+			);
+			path = Gods;
+			sourceTree = "<group>";
+		};
+		EEE59B152B6E8197009D70EA /* Myths */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B192B6E81DB009D70EA /* MythsListView.swift */,
+				EEE59B382B6FBEBD009D70EA /* MythItemDetailsView.swift */,
+			);
+			path = Myths;
+			sourceTree = "<group>";
+		};
+		EEE59B162B6E81A9009D70EA /* Legends */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B1B2B6E81E5009D70EA /* LegendsListView.swift */,
+				EEE59B312B6EBEBB009D70EA /* LegendDetailsView.swift */,
+			);
+			path = Legends;
+			sourceTree = "<group>";
+		};
+		EEE59B1D2B6E850D009D70EA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B1E2B6E8517009D70EA /* GodsData.swift */,
+				EEE59B2F2B6EB7EA009D70EA /* LegendsData.swift */,
+				EEE59B342B6FBD5E009D70EA /* MythsData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EEE59B262B6E887C009D70EA /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B272B6E8882009D70EA /* Color.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE59AFF2B6D649F009D70EA /* ZeusStory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE59B0E2B6D64A1009D70EA /* Build configuration list for PBXNativeTarget "ZeusStory" */;
+			buildPhases = (
+				EEE59AFC2B6D649F009D70EA /* Sources */,
+				EEE59AFD2B6D649F009D70EA /* Frameworks */,
+				EEE59AFE2B6D649F009D70EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeusStory;
+			productName = ZeusStory;
+			productReference = EEE59B002B6D649F009D70EA /* ZeusStory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE59AF82B6D649F009D70EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EEE59AFF2B6D649F009D70EA = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EEE59AFB2B6D649F009D70EA /* Build configuration list for PBXProject "ZeusStory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE59AF72B6D649F009D70EA;
+			productRefGroup = EEE59B012B6D649F009D70EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE59AFF2B6D649F009D70EA /* ZeusStory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE59AFE2B6D649F009D70EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE59B0B2B6D64A1009D70EA /* Preview Assets.xcassets in Resources */,
+				EEE59B082B6D64A1009D70EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE59AFC2B6D649F009D70EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE59B252B6E87A7009D70EA /* GodItemView.swift in Sources */,
+				EEE59B2A2B6E8B36009D70EA /* GodDetailsView.swift in Sources */,
+				EEE59B2C2B6EB777009D70EA /* LedgentListItem.swift in Sources */,
+				EEE59B1F2B6E8517009D70EA /* GodsData.swift in Sources */,
+				EEE59B392B6FBEBD009D70EA /* MythItemDetailsView.swift in Sources */,
+				EEE59B232B6E86BD009D70EA /* HTMLView.swift in Sources */,
+				EEE59B372B6FBD71009D70EA /* MythItem.swift in Sources */,
+				EEE59B282B6E8882009D70EA /* Color.swift in Sources */,
+				EEE59B3B2B6FBF07009D70EA /* MythListItem.swift in Sources */,
+				EEE59B182B6E81D0009D70EA /* GodsListView.swift in Sources */,
+				EEE59B302B6EB7EA009D70EA /* LegendsData.swift in Sources */,
+				EEE59B2E2B6EB78E009D70EA /* LegentItem.swift in Sources */,
+				EEE59B352B6FBD5E009D70EA /* MythsData.swift in Sources */,
+				EEE59B062B6D649F009D70EA /* ContentView.swift in Sources */,
+				EEE59B1A2B6E81DB009D70EA /* MythsListView.swift in Sources */,
+				EEE59B042B6D649F009D70EA /* ZeusStoryApp.swift in Sources */,
+				EEE59B1C2B6E81E5009D70EA /* LegendsListView.swift in Sources */,
+				EEE59B212B6E8538009D70EA /* GodItem.swift in Sources */,
+				EEE59B322B6EBEBB009D70EA /* LegendDetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEE59B0C2B6D64A1009D70EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEE59B0D2B6D64A1009D70EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE59B0F2B6D64A1009D70EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZeusStory/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matchapp.ZeusStory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE59B102B6D64A1009D70EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZeusStory/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matchapp.ZeusStory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE59AFB2B6D649F009D70EA /* Build configuration list for PBXProject "ZeusStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE59B0C2B6D64A1009D70EA /* Debug */,
+				EEE59B0D2B6D64A1009D70EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE59B0E2B6D64A1009D70EA /* Build configuration list for PBXNativeTarget "ZeusStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE59B0F2B6D64A1009D70EA /* Debug */,
+				EEE59B102B6D64A1009D70EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE59AF82B6D649F009D70EA /* Project object */;
+}
