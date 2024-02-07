@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0973002B740A7900813DE6 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = EE0972FF2B740A7900813DE6 /* SwiftyJSON */; };
+		EE0973022B742CC500813DE6 /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = EE0973012B742CC500813DE6 /* OneSignal */; };
+		EE0973052B742E4300813DE6 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = EE0973042B742E4300813DE6 /* FacebookCore */; };
 		EEE59B042B6D649F009D70EA /* ZeusStoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B032B6D649F009D70EA /* ZeusStoryApp.swift */; };
 		EEE59B062B6D649F009D70EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B052B6D649F009D70EA /* ContentView.swift */; };
 		EEE59B082B6D64A1009D70EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE59B072B6D64A1009D70EA /* Assets.xcassets */; };
@@ -28,7 +31,37 @@
 		EEE59B372B6FBD71009D70EA /* MythItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B362B6FBD71009D70EA /* MythItem.swift */; };
 		EEE59B392B6FBEBD009D70EA /* MythItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B382B6FBEBD009D70EA /* MythItemDetailsView.swift */; };
 		EEE59B3B2B6FBF07009D70EA /* MythListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B3A2B6FBF07009D70EA /* MythListItem.swift */; };
+		EEE59B3E2B73C3FC009D70EA /* ContentV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B3D2B73C3FC009D70EA /* ContentV.swift */; };
+		EEE59B412B73D147009D70EA /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = EEE59B402B73D147009D70EA /* AppsFlyerLib */; };
+		EEE59B562B73D332009D70EA /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B552B73D332009D70EA /* NotificationService.swift */; };
+		EEE59B5A2B73D332009D70EA /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EEE59B532B73D332009D70EA /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EEE59B732B73DF26009D70EA /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = EEE59B722B73DF26009D70EA /* OneSignalExtension */; };
+		EEE59B822B73E903009D70EA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE59B812B73E903009D70EA /* LoadingView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE59B582B73D332009D70EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE59AF82B6D649F009D70EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE59B522B73D332009D70EA;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEE59B5E2B73D332009D70EA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EEE59B5A2B73D332009D70EA /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EEE59B002B6D649F009D70EA /* ZeusStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeusStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +86,14 @@
 		EEE59B362B6FBD71009D70EA /* MythItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythItem.swift; sourceTree = "<group>"; };
 		EEE59B382B6FBEBD009D70EA /* MythItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythItemDetailsView.swift; sourceTree = "<group>"; };
 		EEE59B3A2B6FBF07009D70EA /* MythListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythListItem.swift; sourceTree = "<group>"; };
+		EEE59B3D2B73C3FC009D70EA /* ContentV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentV.swift; sourceTree = "<group>"; };
+		EEE59B4D2B73D1F1009D70EA /* ZeusStory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZeusStory.entitlements; sourceTree = "<group>"; };
+		EEE59B4E2B73D1F5009D70EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EEE59B532B73D332009D70EA /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE59B552B73D332009D70EA /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		EEE59B572B73D332009D70EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE59B802B73DFF0009D70EA /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		EEE59B812B73E903009D70EA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +101,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0973022B742CC500813DE6 /* OneSignal in Frameworks */,
+				EE0973002B740A7900813DE6 /* SwiftyJSON in Frameworks */,
+				EEE59B412B73D147009D70EA /* AppsFlyerLib in Frameworks */,
+				EE0973052B742E4300813DE6 /* FacebookCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE59B502B73D332009D70EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE59B732B73DF26009D70EA /* OneSignalExtension in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				EEE59B022B6D649F009D70EA /* ZeusStory */,
+				EEE59B542B73D332009D70EA /* OneSignalNotificationServiceExtension */,
 				EEE59B012B6D649F009D70EA /* Products */,
+				EEE59B602B73D49B009D70EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				EEE59B002B6D649F009D70EA /* ZeusStory.app */,
+				EEE59B532B73D332009D70EA /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +141,8 @@
 		EEE59B022B6D649F009D70EA /* ZeusStory */ = {
 			isa = PBXGroup;
 			children = (
+				EEE59B4E2B73D1F5009D70EA /* Info.plist */,
+				EEE59B4D2B73D1F1009D70EA /* ZeusStory.entitlements */,
 				EEE59B262B6E887C009D70EA /* Ext */,
 				EEE59B1D2B6E850D009D70EA /* Data */,
 				EEE59B132B6E817D009D70EA /* Components */,
@@ -108,10 +166,12 @@
 		EEE59B112B6E8172009D70EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EEE59B3C2B73C3F0009D70EA /* Content */,
 				EEE59B162B6E81A9009D70EA /* Legends */,
 				EEE59B152B6E8197009D70EA /* Myths */,
 				EEE59B142B6E8191009D70EA /* Gods */,
 				EEE59B052B6D649F009D70EA /* ContentView.swift */,
+				EEE59B812B73E903009D70EA /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +242,31 @@
 			path = Ext;
 			sourceTree = "<group>";
 		};
+		EEE59B3C2B73C3F0009D70EA /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B3D2B73C3FC009D70EA /* ContentV.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		EEE59B542B73D332009D70EA /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				EEE59B802B73DFF0009D70EA /* OneSignalNotificationServiceExtension.entitlements */,
+				EEE59B552B73D332009D70EA /* NotificationService.swift */,
+				EEE59B572B73D332009D70EA /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		EEE59B602B73D49B009D70EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,15 +277,43 @@
 				EEE59AFC2B6D649F009D70EA /* Sources */,
 				EEE59AFD2B6D649F009D70EA /* Frameworks */,
 				EEE59AFE2B6D649F009D70EA /* Resources */,
+				EEE59B5E2B73D332009D70EA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE59B592B73D332009D70EA /* PBXTargetDependency */,
+			);
+			name = ZeusStory;
+			packageProductDependencies = (
+				EEE59B402B73D147009D70EA /* AppsFlyerLib */,
+				EE0972FF2B740A7900813DE6 /* SwiftyJSON */,
+				EE0973012B742CC500813DE6 /* OneSignal */,
+				EE0973042B742E4300813DE6 /* FacebookCore */,
+			);
+			productName = ZeusStory;
+			productReference = EEE59B002B6D649F009D70EA /* ZeusStory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE59B522B73D332009D70EA /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE59B5B2B73D332009D70EA /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				EEE59B4F2B73D332009D70EA /* Sources */,
+				EEE59B502B73D332009D70EA /* Frameworks */,
+				EEE59B512B73D332009D70EA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZeusStory;
-			productName = ZeusStory;
-			productReference = EEE59B002B6D649F009D70EA /* ZeusStory.app */;
-			productType = "com.apple.product-type.application";
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				EEE59B722B73DF26009D70EA /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = EEE59B532B73D332009D70EA /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -215,6 +328,9 @@
 					EEE59AFF2B6D649F009D70EA = {
 						CreatedOnToolsVersion = 15.1;
 					};
+					EEE59B522B73D332009D70EA = {
+						CreatedOnToolsVersion = 15.1;
+					};
 				};
 			};
 			buildConfigurationList = EEE59AFB2B6D649F009D70EA /* Build configuration list for PBXProject "ZeusStory" */;
@@ -226,11 +342,18 @@
 				Base,
 			);
 			mainGroup = EEE59AF72B6D649F009D70EA;
+			packageReferences = (
+				EEE59B3F2B73D147009D70EA /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				EEE59B712B73DE85009D70EA /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				EE0972FE2B740A5200813DE6 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				EE0973032B742E3900813DE6 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = EEE59B012B6D649F009D70EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EEE59AFF2B6D649F009D70EA /* ZeusStory */,
+				EEE59B522B73D332009D70EA /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +365,13 @@
 			files = (
 				EEE59B0B2B6D64A1009D70EA /* Preview Assets.xcassets in Resources */,
 				EEE59B082B6D64A1009D70EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE59B512B73D332009D70EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +387,9 @@
 				EEE59B2C2B6EB777009D70EA /* LedgentListItem.swift in Sources */,
 				EEE59B1F2B6E8517009D70EA /* GodsData.swift in Sources */,
 				EEE59B392B6FBEBD009D70EA /* MythItemDetailsView.swift in Sources */,
+				EEE59B822B73E903009D70EA /* LoadingView.swift in Sources */,
 				EEE59B232B6E86BD009D70EA /* HTMLView.swift in Sources */,
+				EEE59B3E2B73C3FC009D70EA /* ContentV.swift in Sources */,
 				EEE59B372B6FBD71009D70EA /* MythItem.swift in Sources */,
 				EEE59B282B6E8882009D70EA /* Color.swift in Sources */,
 				EEE59B3B2B6FBF07009D70EA /* MythListItem.swift in Sources */,
@@ -274,7 +406,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEE59B4F2B73D332009D70EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE59B562B73D332009D70EA /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE59B592B73D332009D70EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE59B522B73D332009D70EA /* OneSignalNotificationServiceExtension */;
+			targetProxy = EEE59B582B73D332009D70EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EEE59B0C2B6D64A1009D70EA /* Debug */ = {
@@ -399,27 +547,35 @@
 		EEE59B0F2B6D64A1009D70EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZeusStory/ZeusStory.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZeusStory/Preview Content\"";
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeusStory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zeus Story";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matchapp.ZeusStory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zessappwstoreusus.ZeusStory1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -429,27 +585,95 @@
 		EEE59B102B6D64A1009D70EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZeusStory/ZeusStory.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZeusStory/Preview Content\"";
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeusStory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zeus Story";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matchapp.ZeusStory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zessappwstoreusus.ZeusStory1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEE59B5C2B73D332009D70EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zessappwstoreusus.ZeusStory1.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE59B5D2B73D332009D70EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zessappwstoreusus.ZeusStory1.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,7 +701,79 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		EEE59B5B2B73D332009D70EA /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE59B5C2B73D332009D70EA /* Debug */,
+				EEE59B5D2B73D332009D70EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE0972FE2B740A5200813DE6 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		EE0973032B742E3900813DE6 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+		EEE59B3F2B73D147009D70EA /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.12.3;
+			};
+		};
+		EEE59B712B73DE85009D70EA /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE0972FF2B740A7900813DE6 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0972FE2B740A5200813DE6 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		EE0973012B742CC500813DE6 /* OneSignal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEE59B712B73DE85009D70EA /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignal;
+		};
+		EE0973042B742E4300813DE6 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0973032B742E3900813DE6 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		EEE59B402B73D147009D70EA /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEE59B3F2B73D147009D70EA /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		EEE59B722B73DF26009D70EA /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEE59B712B73DE85009D70EA /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EEE59AF82B6D649F009D70EA /* Project object */;
 }

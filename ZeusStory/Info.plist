@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+    
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb2196725254013798</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>2196725254013798</string>
+    <key>FacebookClientToken</key>
+    <string>2f3deb70315bea652e1fbeadccef7a5b</string>
+    <key>FacebookDisplayName</key>
+    <string>Zeus Story</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>We care about your privacy! To deliver personalized ads tailored to your interests, we ask for your permission to track your activity across other companies&apos; apps and websites. This helps us show you ads that are more relevant and support the free content we provide. Your data is kept private and won&apos;t be shared without your consent. You can change your preferences anytime in the app settings.</string>
+</dict>
+</plist>
